@@ -32,12 +32,4 @@ jobs:
         with:
           flutter-version: '2.x'
           channel: 'any'
-      # - run: flutter pub get
-      # - run: flutter config --enable-web
-      # - run: flutter build web
-      # - name: Archive Production Artifact
-      #   uses: actions/upload-artifact@master
-      #   with:
-      #     name: web-build
-      #     path: build/web
       - uses: bluefireteam/flutter-gh-pages@v7
